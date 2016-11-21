@@ -1,5 +1,6 @@
 // This is the text editor interface. 
 // Anything you type or change here will be seen by the other person in real time.
+package com.emsara.java_basics;
 
 import java.util.ArrayList;
 import java.util.HashMap;
