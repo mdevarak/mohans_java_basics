@@ -8,7 +8,10 @@ public class StringRepo {
     
     ArrayList <String> stringArray = new ArrayList<String>();
     HashMap <String, Integer> stringMap = new HashMap<String, Integer>();
-    
+    /**
+     * addString will add a string to the repository
+     * @param string
+     */
     public void addString(String string) {
         stringArray.add(string);
         stringMap.put(string, new Integer(stringArray.size() -1));
